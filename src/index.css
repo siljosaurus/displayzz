@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+
+  text-align: left;
+  background-color: #F4F4F0;
+  font-family: 'Roboto', sans-serif;
+
+
+  --sf-blush: 253, 120, 140;
+  --sf-blue: 50, 154, 217;
+
+  --sf-white: 244, 244, 240;
+  --sf-gray: 233, 230, 226;
+  --sf-lightyellow: 254, 235, 164;
+  --sf-yellow: 253, 220, 98;
+  --sf-teal: 26, 56, 55;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: rgba(var(--sf-blush), 1);
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: rgba(var(--sf-teal));
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+  color: rgba(var(--sf-teal));
+}
+
+h4 {
+  color: rgba(var(--sf-teal));
+  font-style: italic;
+}
+
+p {
+  color: rgba(var(--sf-teal));
+}
+
+a {
+  color: rgba(var(--sf-blue), 1);
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgba(var(--sf-lightblue), 1)
+}
+
+i {
+  color: rgba(var(--sf-yellow));
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: left;
+  transition: color 0.25s;
+}
+
+i:hover {
+  color: rgba(var(--sf-blue), 1);
+  cursor: pointer;
+}
+
+
+.app {
+  max-width: 800px;
+  padding: 0 1rem;
+  margin: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.table {
+  border: 1px solid rgba(229, 227, 210)
 }
