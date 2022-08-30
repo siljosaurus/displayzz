@@ -1,11 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
-const Film = () => {
+const Timelapse = () => {
 
     return(
         <div className="film">
-            <h2>Timelapse</h2>
+
+            <Link
+                to="/timelapse">
+                <h2>Timelapse</h2>
+            </Link>
+           
 
             <iframe 
                 width="700" 
@@ -15,9 +21,10 @@ const Film = () => {
                 frameBorder="0"
                 allowFullScreen>
             </iframe>
+
             
         </div>
     )
 }
 
-export default Film;
+export default Timelapse;

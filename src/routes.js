@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import App from './App'
-import Film from './components/film'
-import Overview from './components/overview'
+import Timelapse from './components/timelapse'
+import Kart from './components/kart'
 import Detail from './components/detail'
 
 
@@ -16,11 +16,11 @@ export default function Navigation() {
            
             <Route
                 path="/timelapse"
-                element={<Film/>}>
+                element={<Timelapse/>}>
             </Route>
             <Route
-                path="/overview"
-                element={<Overview/>}>
+                path="/kart"
+                element={<Kart/>}>
             </Route>
 
             <Route

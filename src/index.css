@@ -45,13 +45,21 @@ p {
 }
 
 a {
-  color: rgba(var(--sf-blue), 1);
   cursor: pointer;
+  color: rgba(var(--sf-teal));
+  text-align: left;
+  margin: 0.5rem;
+
+}
+
+h2:hover {
+  cursor: pointer;
+  color: rgba(var(--sf-blush), 1)
 }
 
 a:hover {
   cursor: pointer;
-  color: rgba(var(--sf-lightblue), 1)
+  color: rgba(var(--sf-blush), 1)
 }
 
 i {
