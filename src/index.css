@@ -1,7 +1,7 @@
 * {
 
   text-align: left;
-  background-color: #F4F4F0;
+  background-color: #231F20;
   font-family: 'Roboto', sans-serif;
 
 
@@ -26,27 +26,28 @@ h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
   font-style: italic;
-  color: rgba(var(--sf-teal));
+  color: rgba(var(--sf-lightyellow));
+  justify-content: center;
 }
 
 h3 {
   font-family: 'Nunito Sans', sans-serif;
   font-style: italic;
-  color: rgba(var(--sf-teal));
+  color: rgba(var(--sf-yellow));
 }
 
 h4 {
-  color: rgba(var(--sf-teal));
+  color: rgba(var(--sf-yellow));
   font-style: italic;
 }
 
 p {
-  color: rgba(var(--sf-teal));
+  color: rgba(var(--sf-yellow));
 }
 
 a {
   cursor: pointer;
-  color: rgba(var(--sf-teal));
+  color: rgba(var(--sf-lightyellow));
   text-align: left;
   margin: 0.5rem;
 

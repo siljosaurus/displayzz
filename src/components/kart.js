@@ -17,13 +17,10 @@ const Kart = () => {
             <img 
                 src={Mapa}
                 alt="animert graf"
-                width="800" 
-                height="800" 
-  
-                
+                width="1200" 
+                height="1200"
                 >
                 
-                   
             </img>
 
         </div>

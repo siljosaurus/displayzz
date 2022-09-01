@@ -1,26 +1,17 @@
 import React from 'react'
-import Bar from './countdown'
-import Gif from '../resources/graf_white.gif'
-import { Link } from 'react-router-dom'
+import Gif from '../resources/final_final_graph.gif'
 
 
 const Detail = () => {
     return(
         <div className="detail">
 
-            <Link
-                to="/detail">
-                <h2>Detalj</h2>
-            </Link>
-
             <img 
                 src={Gif}
                 alt="animert graf"
-                width="700" 
-                height="400" 
+                width="1500" 
+                height="auto"
                 >
-                
-                   
             </img>
 
         </div>
